@@ -11,14 +11,14 @@ public class StringUtilsTest {
 
     @Test
     public void isPalindrome() {
-        /*
+
         assertThat(stringUtils.isPalindrome("aabb")).isFalse();
         assertThat(stringUtils.isPalindrome(null)).isFalse();
         assertThat(stringUtils.isPalindrome("NotEvenClose")).isFalse();
         assertThat(stringUtils.isPalindrome("")).isTrue();
         assertThat(stringUtils.isPalindrome("abba")).isTrue();
         assertThat(stringUtils.isPalindrome("tattarrattat")).isTrue();
-        */
+
     }
 
     /**
