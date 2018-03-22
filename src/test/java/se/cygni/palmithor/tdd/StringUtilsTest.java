@@ -1,6 +1,7 @@
 package se.cygni.palmithor.tdd;
 
 import org.junit.Test;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -24,6 +25,6 @@ public class StringUtilsTest {
      */
     @Test
     public void isBlank() {
-        // stringUtils.isBlank()
+         throw new NotImplementedException();
     }
 }
