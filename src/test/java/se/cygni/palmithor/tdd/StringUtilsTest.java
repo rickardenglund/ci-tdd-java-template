@@ -25,6 +25,8 @@ public class StringUtilsTest {
      */
     @Test
     public void isBlank() {
-         throw new NotImplementedException();
+        assertThat(stringUtils.isBlank(null)).isTrue();
+        assertThat(stringUtils.isBlank("")).isTrue();
+        assertThat(stringUtils.isBlank(" asdf")).isFalse();
     }
 }
