@@ -13,7 +13,7 @@ public class CalculatorTest {
 
     @Test
     public void test() {
-        //assertThat(calculator.sumAll().get()).isEqualTo(1); // fail un purpose
+        assertThat(calculator.sumAll().get()).isEqualTo(1); // fail un purpose
     }
 
 
